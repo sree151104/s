@@ -1,0 +1,40 @@
+/* Basic Reset */
+* {
+    margin: 10;
+    padding: 20;
+    box-sizing: calc(80,10);
+}
+
+body {
+    font-family:fantasy;
+    font-size: medium;
+    font: 100;
+}
+
+#hero {
+    background: url('https://www.samsung.com/in/smartphones/galaxy-s24/buy/?cid=in_pd_ppc_google_im-mobile-smartphones-s24-dtc_sales_samsung-s24-all-2024_eshop-pmax-pla_18Jan2024-na_1ur-503209l-2024-eshop-bau-performancemax-cpc_pfm--20911521305------x--&gad_source=1&gclid=Cj0KCQjw97SzBhDaARIsAFHXUWBJhN35u-E8vCwQC6QYeIzjXjZI2TS-hNsNvn2ES5KTxUbwdXD5bmQaAg1VEALw_wcB') no-repeat center center/cover;
+    height: 10cm;
+    color:gray ;
+    text-align: right;
+}
+
+.hero-text {
+    margin-top: 10%;
+}
+
+.hero-img img {
+    max-width: 80%;
+}
+
+#details {
+    text-align: center;
+}
+
+#details img {
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#cta {
+    background: #a4b1be;
+}
